@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 const AppLayout = () => {
   return (
     <div >
-        <main className='min-h-screen'>
+        <main className='min-h-screen ml-10 mr-10 '>
             <Header/>
             <Outlet/>
         </main>
