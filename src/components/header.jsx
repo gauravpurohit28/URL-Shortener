@@ -8,7 +8,7 @@ import { Avatar, AvatarFallback, AvatarImage } from './ui/avatar'
 
 
 const Header = () => {
-    const user = true
+    const user = false
     const navigate = useNavigate()
 
   return (
